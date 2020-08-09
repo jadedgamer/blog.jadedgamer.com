@@ -1,0 +1,18 @@
+$primary: #66a470;
+$white: #fff;
+$body-bg: #ededeb;
+$body-color: #66595c;
+
+body {
+  background-color: $body-bg;
+  color: $body-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: darken($body-color, 15%);
+}
+
+a {
+  color: $primary;
+}
+
